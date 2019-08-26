@@ -40,8 +40,20 @@ export default {
   color: lightgray;
   font-size: 1.5em;
 }
+
 .project--logo {
   height: 50vh;
   max-width: 45vh;
+}
+
+@media (max-width: 800px) {
+  #project {
+    flex-direction: column;
+  }
+  
+  .project--text {
+    max-width: 90%;
+  }
+
 }
 </style>
