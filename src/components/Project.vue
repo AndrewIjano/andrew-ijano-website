@@ -1,5 +1,5 @@
 <template>
-  <div id="project">
+  <div data-aos="fade-up-right" data-aos-duration="3000" id="project">
     <img class="project--logo" :src="image" />
     <div class="project--text">
       <h3 class="project--title">{{title}}</h3>
@@ -30,7 +30,7 @@ export default {
   min-height: 90vh;
 }
 .project--text {
-    max-width: 50%;
+  max-width: 50%;
 }
 .project--title {
   font-size: 2.5em;
@@ -41,7 +41,7 @@ export default {
   font-size: 1.5em;
 }
 .project--logo {
-    height: 50vh;
-    max-width: 45vh;
+  height: 50vh;
+  max-width: 45vh;
 }
 </style>
