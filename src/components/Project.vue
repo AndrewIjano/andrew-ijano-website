@@ -1,6 +1,6 @@
 <template>
   <div id="project">
-    <img class="project--logo" src="../assets/lh-logo.svg" />
+    <img class="project--logo" :src="image" />
     <div class="project--text">
       <h3 class="project--title">{{title}}</h3>
       <p class="project--descr">{{description}}</p>
@@ -14,7 +14,7 @@ export default {
   props: {
     title: String,
     description: String,
-    file: String
+    image: String
   }
 };
 </script>
@@ -42,5 +42,6 @@ export default {
 }
 .project--logo {
     height: 50vh;
+    max-width: 45vh;
 }
 </style>
