@@ -1,6 +1,10 @@
-# andrew-ijano-website
+# Andrew Ijano's Website
+My personal website.
 
-## Project setup
+
+## Getting Started
+
+After cloning the repository, run
 ```
 npm install
 ```
@@ -15,15 +19,7 @@ npm run serve
 npm run build
 ```
 
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Built With
+* [Vue.js](https://vuejs.org/) - The web framework used
+* [anime.js](https://animejs.com/) - The javascript animation library used
+* [AOS](https://michalsnik.github.io/aos/) - Animate On Scroll Library
