@@ -20,6 +20,10 @@ export default {
     let tl = this.$anime.timeline({
       easing: "easeOutExpo"
     });
+    
+    tl.add({
+      duration: 100
+    });
 
     tl.add({
       targets: ".headline--title",
