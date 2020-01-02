@@ -3,18 +3,32 @@
     <h2 class="projects--title">Projects</h2>
     <div>
       <Project
-        title="Lightning Hacks"
-        description="Co-creator of the Lightning Hacks initiative and designer of the brand identity."
-       image="/lh-logo.svg"
+        title="Ijano Lopes"
+        description="Designer of the brand identity of the architecture firm Ijano Lopes."
+        image="/ijanolopes-logo.svg"
       />
     </div>
 
-    <Project 
+    <div>
+      <Project
+        title="Lightning Hacks"
+        description="Co-creator of the Lightning Hacks initiative and designer of the brand identity."
+        image="/lh-logo.svg"
+      />
+    </div>
+
+    <Project
       title="HackSBSeg"
       description="Co-organizer of the HackSBSeg hackathon and designer of the brand identity."
       image="/hacksbseg-logo.svg"
     />
-
+    <div>
+      <Project
+        title="REGEX"
+        description="Designer of the brand identity of the REGEX group."
+        image="/regex-logo.svg"
+      />
+    </div>
     <Project
       title="BRiD"
       description="Designer and front-end developer of the BRiD project for the Campus Mobile 7th edition."
