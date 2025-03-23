@@ -1,0 +1,54 @@
+---
+import HeaderLink from './HeaderLink.astro';
+import { SITE_TITLE } from '../consts';
+---
+
+<header>
+	<nav>
+		<a class="site-title" href="/">{SITE_TITLE}</a>
+		<div class="internal-links">
+			<HeaderLink href="/">/home</HeaderLink>
+			<HeaderLink href="/mac5856">/mac5856</HeaderLink>
+		</div>
+	</nav>
+</header>
+<style>
+	header {
+		margin: 0;
+	}
+	h2 {
+		margin: 0;
+		font-size: 1em;
+	}
+	nav {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	nav div {
+		display: flex;
+		gap: 1em;
+	}
+	nav a {
+		border-bottom: 2px solid transparent;
+		text-decoration: none;
+	}
+	.active {
+		/* color: white; */
+		/* text-decoration: underline; */
+		border-bottom: 2px solid transparent;
+		border-bottom-color: var(--accent);
+	}
+	.social-links,
+	.social-links a {
+		display: flex;
+	}
+	.site-title {
+		color: white;
+	}
+	@media (max-width: 720px) {
+		.social-links {
+			display: none;
+		}
+	}
+</style>

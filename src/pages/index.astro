@@ -1,0 +1,46 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    <style>
+      main {
+        margin-top: 10em;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+	  .find-me {
+		margin-top: 1em;
+		display: flex;
+		width: 100%;
+		justify-content: space-between;
+	  }
+    </style>
+  </head>
+  <body>
+    <Header />
+    <main>
+      <section>
+        <p>
+          I'm a software engineer currently working @ <a
+            href="https://quintoandar.com.br">QuintoAndar</a
+          >.
+        </p>
+        <p>Also, I make pretty things sometimes.</p>
+        <div class="find-me">
+          <a href="https://github.com/andrewijano">GitHub</a>
+          <a href="https://www.linkedin.com/in/andrewijano/">Linkedin</a>
+          <a href="https://www.instagram.com/andrewijano/">Instagram</a>
+        </div>
+      </section>
+    </main>
+    <!-- <Footer /> -->
+  </body>
+</html>
