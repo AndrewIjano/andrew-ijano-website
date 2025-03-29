@@ -25,22 +25,22 @@
 }
 
 body {
-  padding: 1em 5em;
+  padding: 1em 2em;
   text-align: left;
   word-wrap: break-word;
   overflow-wrap: break-word;
   color: var(--accent);
   background-color: var(--background);
-  font-size: 1em;
-  letter-spacing: -0.01em;
+  font-size: 0.93em;
+  letter-spacing: -0.02em;
   line-height: 1.5;
   font-weight: normal;
   text-rendering: "optimizeLegibility";
 }
 
 main {
-  width: 720px;
   max-width: calc(100% - 2em);
+  padding: 2em 0;
 }
 h1,
 h2,
@@ -105,7 +105,6 @@ code {
   padding: 2px 5px;
   border-radius: 2px;
   font-size: 0.9em;
-  /* background-color: var(--accent); */
   background-color: var(--background-code);
   color: var(--accent-lighter);
 }
@@ -127,12 +126,14 @@ blockquote {
 hr {
   border: none;
 }
-@media (max-width: 720px) {
+@media (min-width: 720px) {
   body {
     font-size: 1em;
+    padding: 1em 5em;
   }
   main {
     padding: 1em;
+    width: 720px;
   }
 }
 
