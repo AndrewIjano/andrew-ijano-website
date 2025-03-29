@@ -68,7 +68,7 @@ After that, it was just a matter of mouting the vm with the new image and connec
 
 ```sh
 sudo guestmount --rw --add "${VM_DIR}/arm64_img.qcow2" --mount /dev/sda2 "${VM_MOUNT_POINT}"
-sudo --preserve-env make -C "${IIO_TREE}" modules_install #
+sudo --preserve-env make -C "${IIO_TREE}" modules_install
 sudo guestunmount "$VM_MOUNT_POINT"
 
 sudo virsh start arm64
