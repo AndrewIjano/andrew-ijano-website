@@ -1,10 +1,10 @@
 ---
 title: 'Character Drivers'
-description: 'Esse é o primeiro relatório da disciplina'
+description: 'This is the report about the fourth tutorial for the Linux Kernel development: Setting up a test environment for Linux Kernel Dev using QEMU and libvirt'
 pubDate: '26 Mar 2025'
 ---
 
-This is the report about the first tutorial for the Linux Kernel development: [Setting up a test environment for Linux Kernel Dev using QEMU and libvirt](https://flusp.ime.usp.br/kernel/qemu-libvirt-setup/). The tutorial provides an incredible introduction about character devices in the Linux kernel.
+This is the report about the fourth tutorial for the Linux Kernel development: [Setting up a test environment for Linux Kernel Dev using QEMU and libvirt](https://flusp.ime.usp.br/kernel/qemu-libvirt-setup/). The tutorial provides an incredible introduction about character devices in the Linux kernel.
 
 ## A character device driver example
 

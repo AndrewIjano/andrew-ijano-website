@@ -1,6 +1,6 @@
 ---
 title: 'Build configuration and modules'
-description: 'This is the report about the third tutorial for the Linux Kernel development'
+description: 'This is the report about the third tutorial for the Linux Kernel development: Introduction to Linux kernel build configuration and modules'
 pubDate: 'Mar 19 2025'
 ---
 
@@ -64,7 +64,7 @@ make -j$(nproc) clean
 make -j$(nproc) Image.gz modules
 ```
 
-After that, it was just a matter of mouting the vm with the new image and connecting it with ssh.
+After that, it was just a matter of mounting the vm with the new image and connecting it with ssh.
 
 ```sh
 sudo guestmount --rw --add "${VM_DIR}/arm64_img.qcow2" --mount /dev/sda2 "${VM_MOUNT_POINT}"

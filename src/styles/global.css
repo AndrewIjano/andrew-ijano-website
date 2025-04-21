@@ -126,6 +126,17 @@ blockquote {
 hr {
   border: none;
 }
+ul {
+  margin-top: 0.5em;
+  margin-left: 1em;
+}
+ol {
+  margin-top: 0.5em;
+  margin-left: 2em;
+}
+li {
+  margin: 0.5em 0;
+}
 @media (min-width: 720px) {
   body {
     font-size: 1em;
