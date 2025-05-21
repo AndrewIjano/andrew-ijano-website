@@ -27,7 +27,7 @@ For this problem, we tried to understand how this settings work. We identified t
 
 
 ## Apps panel: can't easily distinguish identically-named default apps without their icons 
-> (Issue 3378)[https://gitlab.gnome.org/GNOME/gnome-control-center/-/issues/3378]
+> [Issue 3378](https://gitlab.gnome.org/GNOME/gnome-control-center/-/issues/3378)
 
 For the next issue, we tried to work on understand this problem. However, it seemed that the current Adwaita component didn't support this feature, so we wouldn't be able to fix that within the project. So, we created a comment in the issue to alert about that.
 
