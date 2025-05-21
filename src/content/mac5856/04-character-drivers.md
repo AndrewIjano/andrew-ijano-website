@@ -1,5 +1,5 @@
 ---
-title: 'Character Drivers'
+title: '[Tutorial] Character Drivers'
 description: 'This is the report about the fourth tutorial for the Linux Kernel development: Setting up a test environment for Linux Kernel Dev using QEMU and libvirt'
 pubDate: '26 Mar 2025'
 ---

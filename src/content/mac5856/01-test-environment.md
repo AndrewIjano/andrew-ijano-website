@@ -1,5 +1,5 @@
 ---
-title: 'Setting up a test environment'
+title: '[Tutorial] Setting up a test environment'
 description: 'This is the report about the first tutorial for the Linux Kernel development: Setting up a test environment for Linux Kernel Dev using QEMU and libvirt'
 pubDate: '05 Mar 2025'
 ---

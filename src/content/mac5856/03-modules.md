@@ -1,5 +1,5 @@
 ---
-title: 'Build configuration and modules'
+title: '[Tutorial] Build configuration and modules'
 description: 'This is the report about the third tutorial for the Linux Kernel development: Introduction to Linux kernel build configuration and modules'
 pubDate: 'Mar 19 2025'
 ---

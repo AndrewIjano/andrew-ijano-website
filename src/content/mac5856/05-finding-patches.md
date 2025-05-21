@@ -1,5 +1,5 @@
 ---
-title: 'Finding patch candidates'
+title: '[Linux] Finding patch candidates'
 description: 'This report shows how we managed to find patch candidates for the Linux kernel'
 pubDate: '17 Apr 2025'
 ---

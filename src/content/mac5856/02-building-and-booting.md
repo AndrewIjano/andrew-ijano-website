@@ -1,5 +1,5 @@
 ---
-title: 'Building and booting a custom Linux kernel'
+title: '[Tutorial] Building and booting a custom Linux kernel'
 description: 'This is the report about the second tutorial for the Linux Kernel development: Building and booting a custom Linux kernel for ARM'
 pubDate: 'Mar 12 2025'
 ---
